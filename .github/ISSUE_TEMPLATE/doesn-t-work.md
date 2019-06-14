@@ -8,32 +8,28 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Name of app/URL of website**
+What app or website isn't working with text in right-to-left or other directions?
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Screenshot**
+Drag a screenshot here. For privacy, turn of Location in your settings before taking the screenshot.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**I'm trying to ...**
+What are you trying to do when the problem happens?
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**The problem is ...**
+What isn't working?
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+ - Version of app or website (if applicable) [e.g. 22]
 
 **Smartphone (please complete the following information):**
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+ - Version of app or website (if applicable) [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+**More info**
+For example, steps to reproduce the problem.
