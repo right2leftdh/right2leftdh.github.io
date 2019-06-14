@@ -1,5 +1,5 @@
 # Right2Left Digital Humanities
-Where do you encounter problems with right-to-left, bi-directional, or top-to-bottom text? Have problems entering Arabic, Hebrew, Persian, Urdu, Syriac, or other text with a right-to-left direction? What about vertical Japanese, Chinese, or Korean?
+Where do you encounter problems with right-to-left, bi-directional, or top-to-bottom text? Have problems entering Arabic, Hebrew, Persian, Urdu, Syriac, or other text with a right-to-left direction on a website or in an app? What about vertical Japanese, Chinese, or Korean?
 
 [Submit an issue!](https://github.com/right2leftdh/right2leftdh.github.io/issues/new) We're here to get your input and examples and, ultimately, to work toward providing ways to get better support for these languages in all kinds of digital tools.
 
