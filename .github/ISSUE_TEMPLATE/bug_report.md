@@ -1,6 +1,7 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Show us where right-to-left, top-to-bottom, or multidirectional text doesn't
+  work
 title: ''
 labels: ''
 assignees: ''
