@@ -2,9 +2,9 @@
 name: Doesn't work
 about: Show us where right-to-left, top-to-bottom, or multidirectional text doesn't
   work
-title: ''
-labels: ''
-assignees: ''
+title: "[App/website] doesn't work with [language/script]"
+labels: bug, in triage
+assignees: nathangibson
 
 ---
 
