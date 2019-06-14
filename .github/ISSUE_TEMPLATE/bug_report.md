@@ -1,33 +1,38 @@
 ---
-name: Doens't work
-about: Show us what doesn't work with text in right-to-left or other directions
-title: '[App/website] doesn't work with [language/script]'
-labels: 'in triage'
-assignees: 'nathangibson'
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
-**Name of app/URL of website**
-What app or website isn't working with text in right-to-left or other directions?
 
-**Screenshot**
-Drag a screenshot here. For privacy, turn of Location in your settings before taking the screenshot.
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-**I'm trying to ...**
-What are you trying to do when the problem happens?
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**The problem is ...**
-What isn't working?
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
- - Version of app or website (if applicable) [e.g. 22]
+ - Version [e.g. 22]
 
 **Smartphone (please complete the following information):**
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
- - Version of app or website (if applicable) [e.g. 22]
+ - Version [e.g. 22]
 
-**More info**
-For example, steps to reproduce the problem.
+**Additional context**
+Add any other context about the problem here.
