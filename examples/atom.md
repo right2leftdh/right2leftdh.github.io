@@ -3,7 +3,7 @@
  - Basic mixed-direction text like this الكلمة seems to display correctly.
 
 # Alignment
- - There seems to be no way to set the base text-direction or even align text to the right.
+ - There seems to be no way to set the base text-direction or even aligning text to the right.
  - The beginning of the line is always on the left and the end of the line is always on the right, regardless of the direction of the text in the line.
 
 # Cursor
