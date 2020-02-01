@@ -1,8 +1,0 @@
-/*
----
-name: Boustrophedon Demo
-description: jsFiddle demo of boustrophedon using CSS transform property
-...
-*/
-
-<p>This demo from Right2Left Digital Humanities shows how to display boustrophedon text using CSS.</p>
