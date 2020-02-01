@@ -1,0 +1,10 @@
+/*
+---
+ name: Boustrophedon Demo
+ description: jsFiddle demo of boustrophedon using CSS transform property
+ authors:
+   - Nathan Gibson
+ ...
+ */
+
+ <p>This demo from <a href="https://right2leftdh.github.io/">https://right2leftdh.github.io/</a> shows how to display boustrophedon text using CSS.</p>

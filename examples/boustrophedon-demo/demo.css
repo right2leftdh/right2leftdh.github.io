@@ -1,0 +1,6 @@
+.mirror {
+  transform: rotateY(180deg);
+}
+p {
+  text-align: center;
+}
