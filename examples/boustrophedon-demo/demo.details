@@ -1,15 +1,10 @@
 /*
 ---
-name: Request.HTML - jsFiddle/Github integration demo
-description: jsFiddle demo hosted on Github using HTML Request to get Ajax data
-authors:
-  - Piotr Zalewa
-resources:
-  - /js/empty.js
-  - /css/normalize.css
-normalize_css: yes
-lang_css: SCSS
-...
-*/
+ name: Boustrophedon Demo
+ description: jsFiddle demo of boustrophedon using CSS transform property
+ authors:
+   - Nathan Gibson
+ ...
+ */
 
-<p>This demo will show you how to: add multiple Events to an Element, create custom Events and fire an Event.</p>
+ <p>This demo from Right2Left Digital Humanities shows how to display boustrophedon text using CSS.</p>
