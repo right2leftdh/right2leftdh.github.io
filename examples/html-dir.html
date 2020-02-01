@@ -1,0 +1,44 @@
+<h1>HTML</h1>
+<h2>Wrapping Opposite Direction Text</h2>
+<h3>Incorrect</h3>
+<p>This text is LTR with some (1) فارسي, (2) عربية, and (3) اردو in the middle. Opposite-direction (in this case RTL) text is not wrapped. Note that the order of the first two RTL words is reversed and that the comma placement is incorrect.</p>
+<h3>Correct</h3>
+<p dir="ltr">This text is LTR with some (1) <span dir="rtl">فارسى</span>⁩, (2) <span dir="rtl">عربية</span>, and (3) <span dir="rtl">اردو</span>⁩ in the middle. Opposite-direction (in this case RTL) text is wrapped with a <code>@dir="rtl"</code> attribute. Note that the order of the first two RTL words is correct and that the comma placement is incorrect.</p>
+<h3>Incorrect</h3>
+<p>إنّ في هذا الخط English.</p>
+<p>
+The text direction is not set and opposite-direction text is not wrapped.
+</p>
+<h3>Correct</h3>
+<p dir="rtl">إنّ في هذا الخط <span dir="ltr">English</span>.</p>
+<p>
+The text direction is set and opposite-direction text is wrapped.
+</p>
+<h2>
+Wrapping Text with an Unknown Direction
+</h2>
+<h3>
+Incorrect
+</h3>
+<p>Handle كلمة 2 automatically. The text direction is not set and the unknown text is not wrapped. It cannot be determined whether the "2" belongs to the RTL or LTR text.</p>
+<h3>
+Correct
+</h3>
+<p dir="auto">Handle <bdi>كلمة</bdi> 2 automatically. The unknown text is wrapped with a <code>bdi</code> element.</p>
+<h2>
+Overriding Text Direction (Rarely Needed)
+</h2>
+<h3>
+Incorrect
+</h3>
+<p dir="ltr">Force this Hebrew text left-to-right: אבג.</p>
+<p>
+Force this Latin text right-to-left: <span dir="rtl">abc</span>.
+</p>
+<p>Even if the text <code>@dir</code> is explicitly set on a regular text element such as <code>p</code> or <code>span</code>, text will default to its normal direction.</p>
+<h3>
+Correct
+</h3>
+<p>Force this Hebrew text left-to-right: <bdo dir="ltr">אבג</bdo>.</p>
+<p>Force this Latin text right-to-left: <bdo dir="rtl">abc</bdo>.</p>
+<p>The text <code>@dir</code> has to be set on a <code>bdo</code> (override) element.</p>

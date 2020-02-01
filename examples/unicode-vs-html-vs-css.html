@@ -1,0 +1,69 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table style="font-family:Arial;">
+            <thead style="font-weight:bold;">
+                <tr>
+                    <td>Unicode</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td>Incorrect</td>
+                    <td>Correct</td>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #CCC;">
+                    <td><code>RLI ... PDI</code></td>
+                    <td><code>@dir="rtl"</code></td>
+                    <td><code>direction:rtl; unicode-bidi:isolate</code></td>
+                    <td>This text is LTR with some (1) فارسي, (2) عربية, and (3) اردو in the middle.</td>
+                    <td dir="ltr">This text is LTR with some (1) <span dir="rtl">فارسى</span>⁩, (2) <span dir="rtl">عربية</span>, and (3) <span dir="rtl">اردو</span>⁩ in the middle.</td>
+                    
+                </tr>
+                <tr>
+                    <td><code>LRI ... PDI</code></td>
+                    <td><code>@dir = "ltr"</code></td>
+                    <td><code>direction:ltr; unicode-bidi:isolate</code></td>
+                    <td>إنّ في هذا الخط English.</td>
+                    <td dir="rtl">إنّ في هذا الخط <span dir="ltr">English</span>.</td>
+                    
+                </tr>
+                <tr style="background: #CCC;">
+                    <td><code>FSI ... PDI</code></td>
+                    <td><code>&lt;bdi&gt; or @dir="auto"</code></td>
+                    <td><code>unicode-bidi:plaintext</code></td>
+                    <td>Handle كلمة 4 automatically.</td>
+                    <td dir="auto">Handle <bdi>كلمة</bdi> 4 automatically.</td>
+                </tr>
+                <tr>
+                    <td><code>FSI LRO . . . PDF PDI</code></td>
+                    <td><code>&lt;bdo dir="ltr"&gt;</code></td>
+                    <td><code>direction:ltr; unicode-bidi:isolate-override</code></td>
+                    <td>Force this Hebrew text left-to-right: אבג.</td>
+                    <td>Force this Hebrew text left-to-right: <bdo dir="ltr">אבג</bdo>.</td>
+                    
+                </tr>
+                <tr style="background: #CCC;">
+                    <td><code>FSI RLO . . . PDF PDI</code></td>
+                    <td><code>&lt;bdo dir="rtl"&gt;</code></td>
+                    <td><code>direction:rtl; unicode-bidi:isolate-override</code></td>
+                    <td>Force this Latin text right-to-left: abc.</td>
+                    <td>Force this Latin text right-to-left: <bdo dir="rtl">abc</bdo>.</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <p dir="ltr"></p>
+        
+        <p></p>
+        <p dir="rtl"></p>
+        
+        <p></p>
+        <p></p>
+    </body>
+</html>
